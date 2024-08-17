@@ -6,6 +6,11 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // Use Array [0..96] inclusively, for generating class h-* and top-*
+  safelist: [
+    ...Array.from(Array(97).keys()).map((i) => `h-[${i * 2}rem]`),
+    ...Array.from(Array(97).keys()).map((i) => `top-[${i * 2}rem]`),
+  ],
   theme: {
     extend: {
       backgroundImage: {
