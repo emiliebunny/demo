@@ -70,7 +70,7 @@ export default function Home() {
             title: "Streaming",
             start: "2024-08-14T16:45:00+07:00",
             end: "2024-08-14T22:45:00+07:00",
-            length_in_slot: 24,
+            duration_in_slot: 24,
             positionY_in_slot: 67
           },
         ]
@@ -83,7 +83,7 @@ export default function Home() {
             title: "Streaming",
             start: "2024-08-15T16:00:00+07:00",
             end: "2024-08-15T22:00:00+07:00",
-            length_in_slot: 24,
+            duration_in_slot: 24,
             positionY_in_slot: 64
           },
         ]
@@ -96,7 +96,7 @@ export default function Home() {
             title: "Streaming",
             start: "2024-08-16T09:30:00+07:00",
             end: "2024-08-16T10:30:00+07:00",
-            length_in_slot: 4,
+            duration_in_slot: 4,
             positionY_in_slot: 38
           },
         ]
@@ -109,7 +109,7 @@ export default function Home() {
             title: "Streaming",
             start: "2024-08-17T12:00:00+07:00",
             end: "2024-08-17T14:30:00+07:00",
-            length_in_slot: 8,
+            duration_in_slot: 8,
             positionY_in_slot: 48
           },
         ]
@@ -122,14 +122,14 @@ export default function Home() {
             title: "Streaming",
             start: "2024-08-18T10:00:00+07:00",
             end: "2024-08-18T12:00:00+07:00",
-            length_in_slot: 8,
+            duration_in_slot: 8,
             positionY_in_slot: 40
           },
           {
             title: "Streaming",
             start: "2024-08-18T13:00:00+07:00",
             end: "2024-08-18T15:00:00+07:00",
-            length_in_slot: 8,
+            duration_in_slot: 8,
             positionY_in_slot: 52
           },
         ]

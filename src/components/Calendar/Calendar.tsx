@@ -28,7 +28,7 @@ export default function Calendar({ data }: Props) {
         <div key={`cal-lane-${el.day_of_week}`} className="basis-full">
           <Lane title={el.day_of_week} active={el.schedule.length > 0}>
             {
-              el.schedule.map((s, idx) => <CalendarSlot key={`${idx}-${s.title}`} timeslotHeight={TIMESLOT_HEIGHT} numberOfSlots={s.length_in_slot} topPosition={s.positionY_in_slot} />)
+              el.schedule.map((s, idx) => <CalendarSlot key={`${idx}-${s.title}`} slotREM={TIMESLOT_HEIGHT} slotDuration={s.duration_in_slot} slotPositionY={s.positionY_in_slot} />)
             }
           </Lane>
         </div>

@@ -5,7 +5,7 @@ export type GoogleSchedule = {
 };
 
 export type Schedule = GoogleSchedule & {
-  length_in_slot: number;
+  duration_in_slot: number;
   positionY_in_slot: number;
 };
 
